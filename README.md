@@ -1,1 +1,12 @@
-# Sistema de Gesti髇 de Tienda - DevOps
+# Sistema de Gesti贸n de Tienda - DevOps
+**Autor:** Manuel L贸pez Varela
+
+Aplicaci贸n de gesti贸n desarrollada en Python / FastAPI contenerizada con Docker como parte de las pr谩cticas de DevOps.
+
+---
+
+## Configuraci贸n y Ejecuci贸n con Docker
+
+### 1. Construir la imagen Docker
+```bash
+docker build -t tienda-app:v1 .
